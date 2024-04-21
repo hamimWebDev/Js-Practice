@@ -15,3 +15,13 @@ const bottle = {
 console.log(bottle.price);
 console.log(bottle["color"]);
 console.log(bottle["is-Clean"]);
+
+// set object propertyset object property
+
+bottle.price = 20;
+bottle["color"] = "Black";
+bottle["is-Clean"] = false;
+
+console.log(bottle.price);
+console.log(bottle["color"]);
+console.log(bottle["is-Clean"]);
